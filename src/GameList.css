@@ -1,0 +1,34 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.gameCard {
+  display: flex;
+  justify-content: space-between;
+  font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
+  margin-top: 20px;
+  }
+
+.gameCard-content {
+  display: flex;
+  justify-content: space-between;
+  color: #57727C;
+  font-size: 20px;
+}
+  
+.gameCard-picture {
+  background-image: url(https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png);
+  background-size: 100px;
+  min-width: 100px;
+  height: 100px;
+  color: pink;
+}
+
+.gameCard-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
